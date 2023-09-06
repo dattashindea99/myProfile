@@ -1,1 +1,1 @@
-# myProfile
+# MyProfile
