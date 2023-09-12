@@ -4,15 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <style>
+      .career {
+        color: black;
+        background-color: aqua;
+      }
+      #angular {
+        color: red;
+      }
+      li {
+        color: black;
+        background-color: lightyellow;
+      }
+    </style>
   </head>
   <body>
     <fieldset>
-      <legend><h2>Professional Summery</h2></legend>
+      <legend><h2 class="career">Career Objective</h2></legend>
+      <p>
+        WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP
+        ORGANIZATIONAL GROWTH
+      </p>
+      <hr />
+      <h2 class="career">Professional Summery</h2>
       <ul type="square">
         <li>
           Having 1 years of experience in developing Single page Web
-          Applications using Angular 8, HTML5, CSS3, Bootstrap 5, JavaScript,
-          TypeScript
+          Applications using <span id="angular">Angular 8</span>, HTML5, CSS3,
+          Bootstrap 5, JavaScript, TypeScript
         </li>
         <br />
         <li>
@@ -38,6 +57,7 @@
         <li>Knowledge of NodeJS</li>
         <br />
         <li>Ability to work with people at all levels in the program</li>
+        <br />
         <li>Knowledge of Mongodb and expressJS</li>
       </ul>
     </fieldset>
